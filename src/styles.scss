@@ -1,14 +1,6 @@
-body {
-  font-family: 'Roboto';
-}
-
-main {
-  padding: 20px;
-  text-align: center;
-  font-size: 18px;
-
-  h1 {
-    font-size: 40px;
-    text-align: center;
-  }
-}
+@import './_base';
+@import './styles/_settings';
+@import './styles/_propertieslist';
+@import './styles/_property';
+@import './styles/_header';
+@import './styles/_search';
