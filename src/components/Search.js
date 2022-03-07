@@ -6,7 +6,6 @@ export default class Search extends React.Component {
     e.preventDefault();
     const search = e.target.search.value;
     const searchInput = e.target.search;
-    console.log(searchInput);
     const type = e.target.type.value;
     const min = e.target.min.value;
     const max = e.target.max.value;

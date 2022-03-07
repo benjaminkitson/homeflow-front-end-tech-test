@@ -17,7 +17,6 @@ export default class Content extends React.Component {
         if (min) data = filterByMin(data, min);
         if (max) data = filterByMax(data, max);
         if (buyOrRent) data = filterByBuyOrRent(data, buyOrRent);
-        console.log(data);
         this.setState(() => ({ data }), );
       })
       .catch((err) => {

@@ -18,7 +18,6 @@ function filterByMax(data, max) {
 
 function filterByBuyOrRent(data, buyOrRent) {
   return data.filter((property) => {
-    console.log(property.primary_channel === buyOrRent);
     return property.primary_channel === buyOrRent;
   });
 }
